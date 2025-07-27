@@ -1,21 +1,23 @@
 import './App.css'
+
+import { Hero } from './Components/Hero/Hero'
 import { Navbar } from './Components/Navbar/Navbar'
-
-
 
 function App() {
 
 
   return (
-    <>
-      <Navbar />
-      <main>
+    <div id="app-container">
+      
+        <div id='scroll'>
+          <Navbar />
+          <main>
+            <Hero />
+          </main>
+        </div>
+      
+    </div>
 
-
-
-      </main>
-
-    </>
   )
 }
 
