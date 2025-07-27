@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './ContentContainer.module.css'
 
 //Props to make this container reusable
 type myProps = {
@@ -9,7 +10,7 @@ type myProps = {
 
 export const ContentContainer: React.FC<myProps> = ({children, className}) => {
   return (
-    <div className={className} style={{maxWidth: 1200, padding: 10 }}>
+    <div className={`${styles.container} ${className || ''}`}>
         {children}
     </div>
   )
