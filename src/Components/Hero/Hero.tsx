@@ -6,7 +6,7 @@ import { ContentContainer } from '../ContentContainer'
 
 export const Hero: React.FC = () => {
     return (
-        <div className={styles.hero}>
+        <div id="designs" className={styles.hero}>
             <ContentContainer className={styles.heroContent}>
                 <div className={styles.textContainer}>
                 <h3>CREATIVE DESIGNER</h3>
