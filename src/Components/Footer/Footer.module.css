@@ -17,3 +17,14 @@
 .footer h3 span {
   color: #75e2d5;
 }
+@media (max-width: 480px) {
+  .footer {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .footer h3 {
+    font-size: 0.9rem;
+    padding-top: 0;
+  }
+}

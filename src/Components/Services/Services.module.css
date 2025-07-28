@@ -101,3 +101,42 @@
     color: #75e2d5;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .servicesContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .textContainer {
+    text-align: center;
+  }
+
+  .textContainer h1 {
+    font-size: 2rem;
+  }
+
+  .textContainer p {
+    font-size: 0.95rem;
+  }
+
+  .viewbtn {
+    margin: 1rem auto 2rem;
+    display: block;
+  }
+
+  .servicesGrid {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+
+  .serviceCard {
+    padding: 1rem;
+  }
+
+  .icon {
+    font-size: 70px;
+  }
+}

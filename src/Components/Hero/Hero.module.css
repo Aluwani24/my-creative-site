@@ -65,3 +65,28 @@
    transition: filter 0.4s ease, transform 0.4s ease;
    filter: blur(1px) brightness(0.75);
  }
+
+ @media (max-width: 768px) {
+  .heroContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .textContainer h1 {
+    font-size: 2rem;
+  }
+
+  .textContainer p {
+    font-size: 0.95rem;
+  }
+
+  .imageContainer img {
+    width: 220px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px -10px rgba(138, 220, 159, 0.4);
+  }
+}

@@ -35,3 +35,22 @@
 .statsItem h1 {
     color: #75e2d5;
 }
+@media (max-width: 768px) {
+  .statsContent {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .icon {
+    font-size: 50px;
+  }
+
+  .statsItem h1 {
+    font-size: 1.8rem;
+  }
+
+  .statsItem h3 {
+    font-size: 0.9rem;
+  }
+}
