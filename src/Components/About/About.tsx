@@ -2,13 +2,14 @@ import React from 'react'
 import { ContentContainer } from '../ContentContainer'
 import styles from './About.module.css'
 import { FaEye, FaRegFileAlt } from 'react-icons/fa'
+import Headphones from '/src/assets/images/Headphone.jpg'
 
 export const About: React.FC = () => {
     return (
         <div id="about" className={styles.about}>
             <ContentContainer className={styles.aboutContent}>
                 <div className={styles.imageContainer}>
-                    <img src="/src/assets/images/Headphone.jpg" alt="headphones" />
+                    <img src={Headphones} alt="headphones" />
                 </div>
                 <div className={styles.textBlock}>
                     <h3>ABOUT US</h3>
