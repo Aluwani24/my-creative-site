@@ -40,7 +40,7 @@ export const Services: React.FC = () => {
                     <div className={styles.serviceCard}>
                         <FaDraftingCompass className={styles.icon} />
                         <h4>UI & UX Design</h4>
-                        <p>We can create for you mobile and desktop app.</p>
+                        <p>We can create for you mobile and desktop apps.</p>
                     </div>
                     <div className={styles.serviceCard}>
                         <FaImage className={styles.icon} />

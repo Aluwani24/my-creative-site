@@ -14,12 +14,13 @@
 }
 
 .textContainer h3 {
+  font-weight: lighter;
   font-size: 1rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #75e2d5;
   margin-bottom: 1rem;
-  font-weight: lighter;
+  
 }
 
 .textContainer h1 {
