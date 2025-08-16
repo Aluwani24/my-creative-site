@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+.nav {
+    font-family:'Orbitron'; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color:transparent;
+    z-index: 100;
+    
+}
+
+.content {
+    max-width:1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #75e2d5;
+}
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    color: #75e2d5;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.link {
+    color: #75e2d5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #043b35;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: pointer;
+    color: #75e2d5;
+}
+
+/* Hide menu on small screens */
+@media (max-width: 768px) {
+    .links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 1rem 0;
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+.link {
+    color: #75e2d5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #043b35;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: pointer;
+    color: #75e2d5;
+}
