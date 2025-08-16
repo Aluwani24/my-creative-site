@@ -1,0 +1,46 @@
+.section {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.textContainer h3 {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #75e2d5;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+
+.textContainer h1 {
+   font-size: 2rem;
+   font-weight: lighter;
+   margin: 0;
+   line-height: 1.1;
+ }
+
+.textContainer h1 span {
+  color: #75e2d5;
+}
+
+.textContainer hr {
+  width: 150px;
+  height: 4px;
+  background-color: #0ab092;
+  border: none;
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 660px;
+}
